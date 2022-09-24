@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/edittext_round_corner.xml" value="0.139" />
+        <entry key="app/src/main/res/drawable/red_button_round_corner.xml" value="0.139" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23184187147352425" />
+        <entry key="app/src/main/res/layout/activity_ss10_upload_music_page.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/activity_ss11_record_page1.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/activity_ss12_record_page2.xml" value="0.21091308593750002" />
+        <entry key="app/src/main/res/layout/activity_ss13_record_page3.xml" value="0.19444444444444445" />
+        <entry key="app/src/main/res/layout/activity_ss14_record_page4.xml" value="0.19444444444444445" />
+        <entry key="app/src/main/res/layout/activity_ss15_select_playlist_page.xml" value="0.19444444444444445" />
+        <entry key="app/src/main/res/layout/activity_ss18_recent_search_page.xml" value="0.19444444444444445" />
+        <entry key="app/src/main/res/layout/activity_ss19_listen_later_page.xml" value="0.19444444444444445" />
+        <entry key="app/src/main/res/layout/activity_ss1_musify_logo_page.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/activity_ss20_liked_page.xml" value="0.19444444444444445" />
+        <entry key="app/src/main/res/layout/activity_ss21_liked_page.xml" value="0.19444444444444445" />
+        <entry key="app/src/main/res/layout/activity_ss22_profile_page.xml" value="0.19444444444444445" />
+        <entry key="app/src/main/res/layout/activity_ss23_edit_profile_page.xml" value="0.19444444444444445" />
+        <entry key="app/src/main/res/layout/activity_ss2_sign_up_page.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/activity_ss3_sign_in_page.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/activity_ss4_forget_password_page.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/activity_ss5_playlist_page.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/activity_ss6_playlist_page2.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/activity_ss7_song_title_page.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/activity_ss8_sidebar_page.xml" value="0.23387451171875004" />
+        <entry key="app/src/main/res/layout/activity_ss9_add_playlist_page.xml" value="0.21666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+package com.usamafiaz.f190260;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class SS23_EditProfile_Page extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_ss23_edit_profile_page);
+    }
+}

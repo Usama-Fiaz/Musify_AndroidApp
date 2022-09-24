@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="SMD Assignment No 1"
+            android:background="@drawable/edittext_round_corner"
+            android:textColor="#000"
+            android:backgroundTint="#03f2ff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Following are the 23 SS (ScreenShots)\n from the Screen.pdf"
+            android:textColor="#fff"
+            android:layout_marginVertical="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/red_button_round_corner"
+                android:gravity="center"
+                android:text="Musify Logo Page (SS 1)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f0b30c"
+                android:text="SignUp Page (SS 2)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f00"
+                android:text="Sign In Page (SS 3)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f0b30c"
+                android:text="Forget Password Page (SS 4)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f00"
+                android:text="Playlist Page 1 (SS 5)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f0b30c"
+                android:text="Playlist Page 2 (SS 6)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f00"
+                android:text="Song Title Page (SS 7)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f0b30c"
+                android:text="Sidebar Page (SS 8)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f00"
+                android:text="Add Playlist Page (SS 9)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f0b30c"
+                android:text="Upload Music Page (SS 10)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f00"
+                android:text="Record Music Page 1 (SS 11)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f0b30c"
+                android:text="Record Music Page 2 (SS 12)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f00"
+                android:text="Record Music Page 3 (SS 13)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/b14"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f0b30c"
+                android:text="Record Music Page 4 (SS 14)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b15"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f00"
+                android:text="Select Playlist Page (SS 15)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/b16"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f0b30c"
+                android:text="Play Song Page 1 (SS 16)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b17"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f00"
+                android:text="Play Song Page 1 (SS 17)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/b18"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f0b30c"
+                android:text="Recent Search Page (SS 18)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b19"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f00"
+                android:text="Listen Later Page (SS 19)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/b20"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f0b30c"
+                android:text="Liked Page 1 (SS 20)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b21"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f00"
+                android:text="Liked Page 2 (SS 21)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/b22"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#f0b30c"
+                android:text="Profile Page (SS 22)"
+                android:textColor="#FFF"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/b23"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_round_corner"
+                android:backgroundTint="#fff"
+                android:text="Edit Profile Page (SS 23)"
+                android:textColor="#000"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
